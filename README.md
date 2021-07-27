@@ -8,12 +8,12 @@ I've dumped the 24C32 EEPROM and put the files on here.
 
 
 
-Supported Formats:
-[video4linux2,v4l2 @ 0x55d9ff4dcf00] Compressed:       mjpeg :          Motion-JPEG : 1920x1080 1600x1200 1360x768 1280x1024 1280x960 1280x720 1024x768 800x600 720x576 720x480 640x480
-[video4linux2,v4l2 @ 0x55d9ff4dcf00] Raw       :     yuyv422 :           YUYV 4:2:2 : 1920x1080 1600x1200 1360x768 1280x1024 1280x960 1280x720 1024x768 800x600 720x576 720x480 640x480
+# Supported Formats:
+	[video4linux2,v4l2 @ 0x55d9ff4dcf00] Compressed : mjpeg : Motion-JPEG : 1920x1080 1600x1200 1360x768 1280x1024 1280x960 1280x720 1024x768 800x600 720x576 720x480 640x480
+	[video4linux2,v4l2 @ 0x55d9ff4dcf00] Raw : yuyv422 : YUYV 4:2:2 : 1920x1080 1600x1200 1360x768 1280x1024 1280x960 1280x720 1024x768 800x600 720x576 720x480 640x480
 
 
-ioctl: VIDIOC_ENUM_FMT
+
 	Index       : 0
 	Type        : Video Capture
 	Pixel Format: 'MJPG' (compressed)
